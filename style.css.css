@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* :root{
+    --bgColor:#e84949
+} */
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #0B1C36;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    cursor: pointer;
+    padding-top: 28px;
+    padding-right: 28px;
+    padding-bottom: 28px;
+
+}
+.caa{
+    width: 125px;
+    height: 40px;
+    /* position: absolute; */
+}
+.navitem{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4em;
+    position: relative;
+    font-weight: 200;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color:white;
+    position: relative;
+    
+}
+a:hover{
+    color: aqua;
+    cursor: pointer;
+    transition: all 1s;
+}
+a:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: aqua;
+    transition: all 1s;
+}
+.accounts{
+    display: flex;
+    margin-left: 1.5rem;
+    gap: 10px;
+}
+.flag{
+    width: 55px;
+    height: 45px;
+    padding-top: 8px;
+}
+.log{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: white;
+    border-width: 3px;
+    border-color: #0019FF;
+    border-radius: 2px;
+    font: bold;
+    font-weight: 200;
+    cursor: pointer;
+    font-size: larger;
+}
+.log:hover{
+    color: blue;
+    transition: all 1s;
+}
+.sign{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: white;
+    border-width: 3px;
+    border-color: #0019FF;
+    border-radius: 2px;
+    font: bold;
+    font-weight: 400;
+    font-size: larger;
+    cursor: pointer;
+}
+.sign:hover{
+    color: blue;
+    transition: all 1s;
+}

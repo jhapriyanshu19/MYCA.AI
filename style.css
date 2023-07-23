@@ -34,8 +34,8 @@
 
 }
 .caa{
-    width: 125px;
-    height: 40px;
+    width: 200px;
+    height: 90px;
     /* position: absolute; */
 }
 .navitem{
@@ -78,13 +78,14 @@ a:hover::after{
     padding-top: 8px;
 }
 .log{
+    background-color: #13274F;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     color: white;
     border-width: 3px;
-    border-color: #0019FF;
+    border-color: #002244;
     border-radius: 2px;
     font: bold;
     font-weight: 200;
@@ -92,17 +93,18 @@ a:hover::after{
     font-size: larger;
 }
 .log:hover{
-    color: blue;
+    color: aqua;
     transition: all 1s;
 }
 .sign{
+    background-color: #13274F;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     color: white;
     border-width: 3px;
-    border-color: #0019FF;
+    border-color: #002244;
     border-radius: 2px;
     font: bold;
     font-weight: 400;
@@ -110,6 +112,6 @@ a:hover::after{
     cursor: pointer;
 }
 .sign:hover{
-    color: blue;
+    color: aqua;
     transition: all 1s;
 }

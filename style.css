@@ -8,6 +8,8 @@
     --bgColor:#e84949
 } */
 #wrapper{
+    display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -28,9 +30,9 @@
 }
 .logo{
     cursor: pointer;
-    padding-top: 28px;
-    padding-right: 28px;
-    padding-bottom: 28px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
 
 }
 .caa{
@@ -114,4 +116,14 @@ a:hover::after{
 .sign:hover{
     color: aqua;
     transition: all 1s;
+}
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+    gap: 2rem;
+    font-size: x-large;
+    
+}
+.am{
+    font-size: x-large;
 }

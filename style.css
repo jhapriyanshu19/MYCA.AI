@@ -79,12 +79,33 @@
 .accounts{
     display: flex;
     margin-left: 1.5rem;
-    gap: 10px;
+    gap: 20px;
+    
 }
-.flag{
+/* .flag{
     width: 55px;
     height: 45px;
     padding-top: 8px;
+
+} */
+.form-control{
+    width: 190px;
+    display: flex;
+    height: 53px;
+    padding-top: 0.75rem;
+    background-color: #13274F;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: white;
+    border-width: 3px;
+    /* border-color: #002244; */
+    border-radius: 2px;
+    font: bold;
+    font-weight: 200;
+    cursor: pointer;
+    font-size: larger;
+
 }
 .log{
     background-color: #13274F;

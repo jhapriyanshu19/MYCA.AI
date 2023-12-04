@@ -82,12 +82,12 @@
     gap: 20px;
     
 }
-/* .flag{
-    width: 55px;
-    height: 45px;
-    padding-top: 8px;
-
-} */
+.flag{
+    border-width: 3px;
+    border-color: #002244;
+    border-radius: 2px;
+    text-decoration: none;
+}
 .form-control{
     width: 190px;
     display: flex;
@@ -99,8 +99,9 @@
     padding-right: 1.25rem;
     color: white;
     border-width: 3px;
-    /* border-color: #002244; */
+    border-color: #002244;
     border-radius: 2px;
+    text-decoration: none;
     font: bold;
     font-weight: 200;
     cursor: pointer;

@@ -123,6 +123,14 @@
     cursor: pointer;
     font-size: larger;
 }
+/* .symbol{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 20px;
+} */
+
 .log:hover{
     color: aqua;
     transition: all 1s;
